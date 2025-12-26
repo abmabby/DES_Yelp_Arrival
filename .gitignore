@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 忽略数据目录，不上传原始数据和输出数据
+data/
+output/
+figure/
+
+# 忽略des项目的隔离环境
+des/
